@@ -3,7 +3,7 @@ public/
 
 # Ignore for R/project files
 .Rprofile
-
+.Rproj.user/
 
 
 
