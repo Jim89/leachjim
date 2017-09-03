@@ -26,7 +26,7 @@ publishdir                = "public"
 # Set specific parameters ------------------------------------------------------
 [params]
   description = "data science; in plain english"
-  dateFormat = "2006/02/01"
+  dateFormat = "Jan 2, 2016"
   copyrightOwner = "Jim Leach"
   copyrightStartYear = "2017"
   favicon = "favicon.ico"
