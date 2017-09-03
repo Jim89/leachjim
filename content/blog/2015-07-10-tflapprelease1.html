@@ -1,0 +1,57 @@
+---
+title: Getting started with Shiny
+date: '2015-07-10'
+slug: getting-started-with-shiny
+categories:
+  - R
+  - Shiny
+tags: []  
+---
+
+
+
+<div id="tfl-oyster-shiny-app" class="section level2">
+<h2>TfL Oyster Shiny App</h2>
+<p>In my last post I wrote about my experiences of web-scraping and tidying data with R to get set up for my <a href="http://shiny.rstudio.com/">Shiny</a> app.</p>
+<p>The app is now <a href="https://jleach.shinyapps.io/oyster">live</a> and this post will be about how I went about putting it together. In future posts I’ll talk about ongoing development and what I’m trying to do with the app.</p>
+<p>A bit of background first. I built this as part of the <a href="https://www.coursera.org/course/devdataprod">Developing Data Products</a> MOOC from Johns Hopkins University on Coursera. The course (and the others in their Data Science Specialisation) is excellent. It’s well thought out and a solid introduction to common data science tasks. Highly recommended for anyone looking to get started with data science. It’s free, too!</p>
+</div>
+<div id="setting-up-the-shiny-app-layout" class="section level2">
+<h2>Setting up the Shiny app layout</h2>
+<p>Early on when building the app I decided that I wanted to have a multi-tabbed app with different visualisations on each one.</p>
+<p>Using some material from the Coursera course I was taking, as well as heavy use of the (frankly excellent) tutorials on the <a href="http://shiny.rstudio.com/tutorial/">R Studio</a> page I was able to come up with a neat layout.</p>
+<p>The full layout file (ui.R) is over on my GitHub <a href="https://github.com/Jim89/oyster/tree/master/shiny">page</a> - take a look. Setting up the layout was incredibly easy, and really is a testament to what a great product the team at R Studio have built.</p>
+<div id="setting-up-the-main-layout" class="section level3">
+<h3>Setting up the main layout</h3>
+<pre class="r"><code>shinyUI(navbarPage(</code></pre>
+<p>The code above is all (!) that’s required to set up a Shiny app with a navigation bar layout. I then built on top of this, adding separate tabs with the <code>tabPanel()</code> function.</p>
+<p>Building the layout like this was, for me, very intuitive and straightforward. Each time <code>tabPanel</code> is used it adds a new tab to the app. Every bit of code for that tab (e.g code to show graphs, code to create buttons for interactivity etc) goes inside the <code>tabPanel</code> function itself in a nice, clean, ordered way. It really is that simple.</p>
+<p>So a really simple tab page might look like this:</p>
+<pre class="r"><code>shinyUI(navbarPage(
+  tabPanel(&quot;This is the name of the tab&quot;,
+           h1(&quot;This is the primary header for this tab&quot;),
+           plotOutput(&quot;myPlot&quot;)
+          )
+  ))</code></pre>
+<p>This app layout has just one tab called “This is the name of the tab”. That tab has a single title: “This is the primary header for this tab” and just displays the object “myPlot”.</p>
+<p>For someone like me without deep experience of HTML, CSS, JS or web-design setting up the layout like this made things incredibly easy. This is especially true for more complex widgets such as the interactive maps I’m using.</p>
+<p>But what about “myPlot”? Where does that get made and how does Shiny know what it is?</p>
+</div>
+</div>
+<div id="creating-content-for-the-shiny-app" class="section level2">
+<h2>Creating content for the Shiny App</h2>
+<p>Creating a Shiny app is done in two parts. The first, discussed above, it setting up a layout in a <code>ui.R</code> file. The second is creating content for the app to display. This is done in the <code>server.R</code> file.</p>
+<p>Anything created in the <code>server.R</code> file can be brought through to be displayed in the app layout. (Similarly, interactive parts of the layout are referenced in the <code>server.R</code> file, too.)</p>
+<p>Setting up the <code>server.R</code> file is also dead easy:</p>
+<pre class="r"><code>shinyServer( function ( input, output) { # your code here } )</code></pre>
+<p>This is everything needed to get started. Inputs to the server come from the layout (e.g. buttons to press or sliders to move). Anything that might want to be displayed on the app itself is created as an output. So to continue the example of “myPlot” above, in the <code>server.R</code> file we could have:</p>
+<pre class="r"><code>shinyServer( function (input, output) { 
+  output$myPlot &lt;- renderPlot({ 
+    hist(x = rnorm(100)) 
+    }) 
+  })</code></pre>
+<p>This creates a new output object, <code>myPlot</code> that can be displayed in the layout (just a histogram of 100 numbers randomly drawn from the <a href="https://en.wikipedia.org/wiki/Normal_distribution">normal distribution</a>. The <code>renderPlot</code> part of the code just tells Shiny how to show the object in the display (i.e. as a plot!).</p>
+<p>And again, that’s it. It’s as simple as that.</p>
+<p>Well, the basics are as simple as that. Different sorts of output and interactivity introduce some complexity, but those can be developed over time as you become more comfortable with the framework. Just a few hours of playing around got me to a stage where I felt able to display some cool widgets and charts, and add interactivity. Again, the full code is over on <a href="https://github.com/Jim89/oyster/tree/master/shiny">GitHub</a>.</p>
+<p>My Shiny App is hosted on over on <a href="http://jleach.shinyapps.io/oyster">shinyapps.io</a> (another great service!). Check it out, tell me what you think, make suggestions, contribute.</p>
+</div>

@@ -1,0 +1,83 @@
+---
+title: Course Review - Machine Learning (Coursera)
+date: '2015-09-14'
+slug: coursera-ml-review
+categories:
+  - Data Science
+  - Machine Learning
+tags: []  
+---
+
+
+
+<p>In my last post I mentioned that I had been following along with the Machine Learning course on <a href="https://www.coursera.org/learn/machine-learning/home/welcome">Coursera</a>. I finished it last week and wanted to do a review of the course.</p>
+<p>I’ve broken my review in to two sections (with the first having the bulk of the content):</p>
+<ol style="list-style-type: decimal">
+<li>Content / theory; and</li>
+<li>Technical exercises / application.</li>
+</ol>
+<p>For those with little time, I’ll summarise: <b>this course is excellent and I’d recommend it to anyone interested in the field.</b>. The course has a great focus on the core content, the technical exercises are both challenging and relevant, and there’s a liberal sprinkling of examples and applications to keep students motivated and interested. Some important principles (e.g. test vs. train, cross-validation etc) could have been more clearly signposted early on but overall it’s hard to fault it.</p>
+<p>For those with more time, read on:</p>
+<div id="the-review" class="section level2">
+<h2>The review</h2>
+<p>First up, an overview of the course. From the course page itself, the course teaches students how to:</p>
+<blockquote>
+…apply the most advanced machine learning algorithms to such problems as anti-spam, image recognition, clustering, building recommender systems, and many other problems. [Students will] also know how to select the right algorithm for the right job, as well as become expert at ‘debugging’ and figuring out how to improve a learning algorithm’s performance.
+<footer>
+— Andrew Ng
+</footer>
+</blockquote>
+<p>With that in mind I’ll dive straight in to the review proper.</p>
+<div id="content-theory" class="section level3">
+<h3>Content / theory:</h3>
+<div id="supervised-learning" class="section level4">
+<h4>Supervised Learning</h4>
+<p>The content of this course was excellent. The first few weeks are a thorough introduction to linear and logistic regression, accompanied by the necessary overview of linear algebra required for this sort of material. Gradient Descent (for optimisation) is covered in detail, and more complex optimisation methods (e.g. conjugate gradient) are discussed, too. The material is reinforced with several quizzes and the technical challenges to get students implementing these algorithms (covered below) serve as further reinforcement, too.</p>
+<p>After that it’s straight in to the complex stuff: artificial neural networks. Whilst at first thought there is a big jump up to this sort of topic Professor Ng handles it extremely well and I found his discussion of neural networks to be highly enlightening. Some of the mathematical derivations are glossed over (“if you’re an expert in calculus you can solve this yourself” was a common phrase) but overall I think that was probably a smart move. The course, after all, is not in mathematical derivations and the focus on the core content (machine learning) meant the course kept moving rather than getting bogged down in the (frankly pretty complicated) maths. It had the best (and most honest) explanation of the back-propagation algorithm that I’ve encountered. After following through the material I felt like I had a solid (although still basic) understanding of how a neural network functions. Great stuff.</p>
+<blockquote>
+The focus on the core content was great and kept the course moving.
+</blockquote>
+<p>The next week wrapped up supervised learning with a solid overview of Support Vector Machines and some well-thought-out quizzes and technical challenges for reinforcing the theory. The supervised-learning content was great. It was perhaps a little biased in favour of classification rather than regression but overall I’d say the content: was pitched at an excellent level, was sufficiently motivating, and delivered on the stated aims of the course. I would have liked to see a tree method discussed, given their prevalence. That doesn’t mean I’m going to turn my nose up at the excellent content that <em>is</em> on offer, though!</p>
+</div>
+<div id="algorithm-evaluation" class="section level4">
+<h4>Algorithm Evaluation</h4>
+<p>After that the course turned to evaluating algorithm performance (e.g. the bias vs. variance trade off, learning curves, error metrics and how to handle skewed data). It’s here that some of my main reservations about the course come up. Whilst the discussion of evaluation metrics, error checking etc are very welcome they felt like a bit of an add-on, rather than core content. Some of the detail of this content <em>is</em> probably best handled later in the course, but other parts I think deserved a bit more of the limelight earlier on (even if only briefly to then be dealt with more thoroughly further in). Splitting a data set in to training and testing sets, cross-validation, a basic understanding of under vs. over-fitting are (in my view) important concepts in the application of machine learning and could have done with a bit more focus. Maybe I’m expecting too much from just one course, but in this respect, I felt that the <a href="https://www.coursera.org/course/predmachlearn">Practical Machine Learning</a> course from Johns Hopkins was a bit better (although definitely less detailed elsewhere).</p>
+<blockquote>
+…training and testing sets, cross-validation, a basic understanding of under vs. over-fitting are important concepts and could have done with a bit more focus.
+</blockquote>
+</div>
+<div id="unsupervised-learning" class="section level4">
+<h4>Unsupervised Learning</h4>
+<p>The last few weeks of the course focussed on unsupervised learning: K-means clustering, Principal Components Analysis (PCA), anomaly detection and recommender systems. Similarly to the earlier content on supervised learning the later material was also excellent. PCA was something that I had struggled to get my head around before, but Professor Ng’s discussion of it was excellent and I now feel that I’ve got a bit of a better handle on it.</p>
+<p>I think that this was probably due to the light treatment that (some of) the maths of PCA got given. Again, the most complex maths was glossed over in favour of clear and concise explanations of what the algorithm does, why it’s used and how it gets implemented. I’ll say again, though: for me that was a good thing. The course has met its learning objectives and so have I.</p>
+</div>
+<div id="theory-summary" class="section level4">
+<h4>Theory summary</h4>
+<blockquote>
+This course gets and awful lot right…
+</blockquote>
+<p>Overall, then, in terms of theory this course gets an awful lot right, and only a (very) little bit wrong. Its balance of the core content against mathematical derivations and proofs is spot on. Too much maths and the course would have got bogged down but any less and it wouldn’t have been thorough enough.</p>
+<p>There are a couple of missteps around the practicalities of machine learning. That material is covered, but just a bit too late for my tastes.</p>
+<p>However the course meets its stated learning objectives and, from a theoretical perspective, delivers a solid foundation in the fundamentals of machine learning.</p>
+</div>
+</div>
+<div id="technical-exercises" class="section level3">
+<h3>Technical exercises</h3>
+<blockquote>
+After completing this course I feel equipped to implement a range of algorithms from scratch…
+</blockquote>
+<p>The technical exercised for this course are all in <a href="http://uk.mathworks.com/products/matlab/?refresh=true">Matlab</a> or its open source equivalent: <a href="https://www.gnu.org/software/octave/">Octave</a>. The course comes with a time-limited licences of the former so that’s what I used.</p>
+<p>I’d never used Matlab before so was a bit concerned about getting to grips with it quickly enough (especially after the first time I did the excellent but surprisingly tricky <a href="https://www.coursera.org/course/rprog">R Programming</a>). However I needn’t have worried: the language itself is simple enough and the exercises were structured such that a lot of the more complex steps that did not directly relate to algorithm implementation were handled for you.</p>
+<p>Again, this meant that course was focussed on its core aims of getting students up and running with machine learning algorithms. This course will not teach you Matlab/Octave, but after doing it you will have a great understanding of how a range of algorithms work and how to implement them (in any language).</p>
+<p>It’s worth restating that actually: after completing this course I do feel equipped to implement a range of algorithms from scratch, including a neural network (getting that back propagation step working was great fun). For a 10 week course that’s very impressive. Its certainly given me a better and deeper understanding than courses that use native or packaged <code>R</code>/<code>scikit-learn</code> functions for their technical exercises (and that’s coming from an <code>R</code>-lover!).</p>
+<p>If I had to fault the course, it would be for its mixed use of loops vs. vectorised implementations of the algorithms. For true beginners it’s probably a good approach, but anyone familiar with programming vectorisation (e.g. <code>R</code> or <code>scikit-learn</code> users) might find the mixture of approaches to technical exercises a bit baffling (basically - “why is this bit a loop, it would be so much easier like…”).</p>
+<p>Overall though the technical aspects of the course are excellent and combined with the strong theoretical discussion from Professor Ng meant that the learning objectives were well met.</p>
+</div>
+<div id="summary" class="section level3">
+<h3>Summary</h3>
+<p>This course is excellent. It is focussed in all the right ways, and delivers on its stated learning outcomes. After completing it I feel like I have a much better grasp on the theory behind many complex and sophisticated algorithms. Not only this, I’m also comfortable with how they are implemented from scratch. All in all no mean feat from a 10-week online course.</p>
+<p>There are a few things I would have done differently: more focus on other practical aspects of machine learning being the main one but overall the course is excellent and it’s clear why it has been so successful.</p>
+<p>Whilst this course will not teach you everything about machine learning in deep detail, it does an extraordinary job on the fundamentals of the field. Those looking for an in depth treatment of the maths, or advanced discussions of specific algorithms should look elsewhere. Those who want to get a solid overview of what machine learning is, how it works and what it can do should look no further than this course though.</p>
+<p>Very much recommended.</p>
+</div>
+</div>
