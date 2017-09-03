@@ -1,1 +1,17 @@
+# Ignore site directory - just manage the source files
 public/
+
+# Ignore for R/project files
+.Rprofile
+
+
+
+
+
+
+
+
+
+
+
+
