@@ -1,1 +1,15 @@
 /* Custom CSS */
+/* Change coloured bars at top and bottom of pages */
+ .comments-container #disqus_thread:before
+,.entry+.list-container:before
+,.entry-nav-links:before
+,.prev-entry~.next-entry:before
+,.site-header:after
+,.entry-header:after
+,.footer:before {
+  content:"";
+  display:block;
+  border-bottom:.11111em solid #2a698b;
+  width:4em
+}
+
