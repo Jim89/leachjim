@@ -1,5 +1,5 @@
 # Set basic options ------------------------------------------------------------
-baseURL                   = "/"
+baseURL                   = "https://censor-ronald-60453.netlify.com/"
 title                     = "the data gent"
 description               = "data science, data analysis blog" # A brief description of your website. It is not visible on web pages (you can only see it from the HTML source), but should give search engines a hint about your website.  
 copyright                 = ""
