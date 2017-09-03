@@ -11,6 +11,7 @@ preserveTaxonomyNames     = true
 ignoreFiles               = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"] # Add ignore files as advised by blogdown
 enableEmoji               = true
 uglyURLs                  = false
+publishdir                = "public"
 
 # Add option for perma links
 [permalinks]
