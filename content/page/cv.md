@@ -7,27 +7,17 @@ comments: false
 
 ## Professional profile
 
-As a data scientist, I apply scientific rigour to identify and quantify business opportunities using data. I'm driven by my love of using data to find and communicate answers to business questions. My natural curiosity and tenacity helps me to quickly get to the heart of an issue. An ability to think critically and laterally enables me to see ways to solve problems and find an answer. Written and spoken communication skills let me empower others to understand and use the solutions I find. I love to dive into the data to seek answers, and I have the resourcefulness and flexibility to do so. I'm effective when working independently, and love working with a diverse team to reach a shared goal.
+As a data scientist, I apply scientific rigour to identify and quantify business opportunities using data. As a manager I use my communication and leadership skills to inspire and empower others to do the same. I'm driven by my love of using data to find and explain the answers to business questions. My natural curiosity and tenacity help me to quickly get to the heart of an issue. An ability to think critically and laterally enables me to see ways to solve problems and find an answer. Written and spoken communication skills let me empower others to understand and use the solutions I find. I love to dive into the data to seek answers, and I have the resourcefulness and flexibility to do so. I'm effective when working independently, and love leading and working with a diverse team to reach a shared goal.
 
 ## Key attributes
 
 * A desirable combination of technical proficiency, client savvy and organisational awareness developed over five years working as a data scientist and consultant at KPMG.
 
-* Strong knowledge of the theories and methodologies necessary for advanced analytics and data science. Proven track record in academic studies in the sciences and analytics.
-
 * Excellent communication and interpersonal skills developed and evidenced through relationships with global executives during KPMG engagements and feedback noting strong presentations to partners and clients.
 
-* An understanding of the realities of data science and analytics, and experience of implementing it for day-to-day business operations.
+* Strong knowledge of the theories and methodologies necessary for advanced analytics and data science. Proven track record in academic studies in the sciences and analytics.
 
-## Technical Skills
-
-* R
-* SQL
-* Git, SVN, Markdown, Bash
-* Linux, Mac, Windows
-* Python
-* HTML5, CSS, JavaScript and D3.js
-* SparkR/sparklyr
+* An understanding of the realities of operating and managing data science projects, and experience of implementing and leading teams producing analytical solutions for day-to-day business operations.
 
 ## Professional Experience
 
@@ -35,19 +25,21 @@ __Data Scientist, KPMG__
 
 _2012 – Present (including one year academic sabbatical, 2015-2016)_
 
-* Lead small teams gathering, preparing and modelling data on short, "fail fast" projects to quantify the opportunities and costs of using data science and analytics in day-to-day business processes.
+* Lead teams gathering, preparing and modelling data on short, "fail fast" projects to quantify the opportunities and costs of using data science and analytics in day-to-day business processes.
 
 * Implemented analytics and data science in everyday business processes with lightweight solutions as well as software/application development.
 
 * Wrote training for R, data visualisation (ggplot2), and reproducible analysis (RMarkdown, Git). Delivered to KPMG staff and students at the Imperial College Data Science Society. Guest speaker at the EARL Conference (Europe’s largest R conference). Increased the understanding and use of important data science topics and skills across the organisation.
 
-* Developed probabilistic simulations for the UK lottery provider. Quantified the potential financial outcomes and addressed the client’s key questions addressed within two weeks. Facilitated important business and regulatory decisions.
+* Implemented machine learning algorithms to enable automated classification of risk-monitoring events for a major global investment bank.
 
-* Analysed trade, market and communications data for an international investigation into manipulation of foreign exchange rates through inter-bank collusion. Implemented machine learning algorithms and data mining techniques for anomaly detection. Worked closely with interdisciplinary teams.
+* Developed probabilistic simulations for the UK lottery provider. Quantified the potential financial outcomes and addressed the client’s key questions. Facilitated important business and regulatory decisions.
 
-* Held individual responsibility for sections of work valued at hundreds of thousands of pounds, and delivered this work to an extremely high standard.
+* Analysed trade, market and communications data for an international investigation into manipulation of foreign exchange rates through inter-bank collusion. Implemented data mining techniques for anomaly detection. Worked closely with interdisciplinary teams.
 
-* Presented results to C-Suite executives. Contributed results to regulatory reports which were used as a basis for institutional financial penalties and individual prosecutions.
+* Held individual responsibility for significant sections of work, and delivered this work to an extremely high standard.
+
+* Presented results to C-Suite executives and contributed results to reports which were used as a basis for major regulatory decisions (e.g. institutional financial penalties).
 
 * Maintained strong relationships with senior executives during a large project for a Tier 1 investment bank. Communicated clearly and effectively, and built solid relationships with stakeholders situated globally during difficult phases of the engagement.
 
@@ -64,6 +56,16 @@ June - August 2016
 * Worked closely with the internal client to generate business-led hypothesis for testing. Enabled teams working with feedback documents to better understand them and enabled more focused action to remedy any issues.
 
 * Generated and financially quantified a significant time saving for product feedback review.
+
+## Technical Skills
+
+* R
+* SQL
+* Git, SVN, Markdown, Bash
+* Linux, Mac, Windows
+* Python
+* HTML5, CSS, JavaScript and D3.js
+* SparkR/sparklyr
 
 ## Education
 
