@@ -5,15 +5,15 @@ weight: 20
 comments: false
 ---
 
-My name is Jim Leach and this is my blog. I'm from the North of England, but I live and work in London. I love being outdoors, travelling, playing the drums, reading, and learning new things. I also enjoy photography: most of the images on this site are mine; you can see more on my [flickr](https://www.flickr.com/photos/jimleach89/).
+My name is Jim Leach and this is my blog. I'm from the North of England, but I live and work in London. I love being outdoors, travelling, playing the drums, reading, and learning new things. I also enjoy photography and you can see some of my photos on my [flickr](https://www.flickr.com/photos/jimleach89/).
 
-I originally studied chemistry, but life as a chemist wasn't for me. I got a job and found my love of data and analysis. I was lucky to share this passion with my first boss and now [mentor](https://guerrilla-analytics.net/about-the-author/), who helped me find [resources](https://www.coursera.org/specializations/jhu-data-science) to improve my skills. I enjoyed learning so much that I decided to take a sabbatical and study for a masters in data science at [Imperial College, London](http://wwwf.imperial.ac.uk/business-school/programmes/msc-business-analytics/).
+I originally studied chemistry, but life as a chemist wasn't for me. I got a job in tech and found my love of data. I was lucky to share this passion with my first boss who helped me find books, blogs, and [resources](https://www.coursera.org/specializations/jhu-data-science) to improve my skills. I enjoyed learning so much that after a few years I decided to take a sabbatical and study for a masters in data science at [Imperial College, London](http://wwwf.imperial.ac.uk/business-school/programmes/msc-business-analytics/).
 
-I now work as a data scientist applying scientific rigour to identify and quantify business opportunities using data. My analytical mindset; technical aptitude; tenacity, drive and communication skills enable me to use data to find and communicate answers to interesting questions. I write this blog to share my experiences, show my pet projects, and document solutions to problems I've worked on. 
-
-If you're interested, this site is built on Jekyll and hosted on [Github](https://github.com/jim89/jim89.github.io), where you can also find some the other things I work on. 
+I now work as a commerical data scientist and manager: I apply scientific rigour to identify and quantify business opportunities using data, and lead others to do the same. My analytical mindset; technical aptitude; tenacity and drive, and communication and leadership skills enable me to use data to find and communicate answers to interesting questions, and to empower others to do so, too. I maintain this site to share my experiences, show my pet projects, and document solutions to problems I've worked on. 
 
 Welcome to the data gent - data science; in plain English.
+
+If you're interested, this site was built using the [blogdown](https://github.com/rstudio/blogdown) package for R and [RMarkdown](http://rmarkdown.rstudio.com/). It's processed with [Hugo](https://gohugo.io/) and hosted with [Netlify](https://www.netlify.com/). The source for this site is saved on [GitHub](https://github.com/jim89/thedatagent) and the site is deployed continuously from there. You can also find some the other (non-work) projects I've worked on on GitHub. 
 
 ***
 
