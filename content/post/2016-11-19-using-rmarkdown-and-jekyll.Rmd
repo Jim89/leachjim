@@ -1,0 +1,56 @@
+---
+title: Using RMarkdown and Jekyll together
+author: Jim Leach
+date: '2016-11-29'
+slug: using-rmarkdown-and-jekyll
+categories:
+  - R
+tags: []
+---
+
+I recently decided to rebuild this blog. I've scrapped the WordPress site (which I used before) and now the blog is built using Jekyll and RMarkdown. It's hosted on GitHub [here](https://github.com/jim89/jim89.github.io).
+
+This will be a short post outlining how I did this, especially as making the switch seemed to me (at first) to be an overwhelming task. I'm assuming some (very) basic familiarity with both Git and Jekyll.
+
+### Step 1 - Prepare GitHub
+
+The first thing you need is a GitHub repository ready for building a user website. I.e., [GitHub Pages](https://pages.github.com/). The documentation for getting this set up is reasonably thorough, so I won't go in to detail. In short, for a standalone website you need to:
+
+1. Create a repository named your_username.github.io (so for me that's https://github.com/jim89/jim89.github.io)
+
+That's pretty much it. Once this repository is in place you can point your browser at http://your_username.github.io. For me, this means that this blog can be found at http://jim89.github.io. (More on custom domains later).
+
+Clone this (currently empty) repository to your local machine.
+
+### Step 2 - Install Jekyll
+
+Again, the [documentation](https://jekyllrb.com/docs/installation/) for this is pretty good. I used the RubyGems method which seemed to work alright. I had some pain getting Ruby installed, but nothing that some Google-fu couldn't solve. I should note that officially Jekyll requires Linux/macOS to work properly. Windows is only supported [unofficially](https://jekyllrb.com/docs/windows/#installation.
+
+### Step 3 - Get `knitr-jekyll`
+
+`knitr-jekyll` (from Yihui Xie) is how I was able to integrate RMarkdown/knitr with Jekyll to make blogging from `R` a little easier. You'll also need the `servr` package (`install.packages()` in `R` will sort that out). You can find the `knitr-jekyll` repository [here](https://github.com/yihui/knitr-jekyll). Download the contents and save them into the local Git repository you made in step 1. Push the contents to GitHub and then direct yourself to your page (your_username.github.io). You should see a page that looks like [this](http://yihui.name/knitr-jekyll/).
+
+### Step 4 - Get a Jekyll theme
+
+I'm using the [mediator](https://github.com/dirkfabisch/mediator/) theme, but there are [hundreds](http://jekyllthemes.org/) of themes available. Once you've chosen your theme, download it and copy it in to your local Git repository, overwriting the documents which are there already (the important `R` components from step 3 will remain). You _should_ then be able to push straight to GitHub and view your new page. I say _should_ as some themes will require a bit of extra work or have additional dependences. Most of those I looked at contained very helpful installation instructions.
+
+### Step 5 - Customise your site
+
+You can now customise your site. Either by tweaking your theme to alter the appearance, changing/adding/remove settings in your Jekyll `_config.yml` files, or by building whole new layouts and pages into your theme using a combination of `HTML`, `CSS`/`Sass`, `JavaScript` and the Jekyll templating language, `Liquid`. Once you're ready to build the site you can use `servr::jekyll()` (in the root directory of your blog) to build your site (and serve it locally) and push the results up to GitHub for display on your page. 
+
+### Step 6 - Add content to your site
+
+You are now in a position to start building your site. You can delete the default posts that came with `knitr-jekyll`/your theme and add your own. When using `knitr-jekyll`, posts written in RMarkdown should go in the `_source` folder. Upon running `servr::jekyll()`, your RMarkdown posts will be converted into Markdown and saved in to the `_posts` directory ready for upload to GitHub. Once you're happy with the content, push the results to GitHub and check them out on your new page.
+
+### Step 5 - Get a custom domain (optional)
+
+This foxed me for a while, but I found a very straightforward [guide](http://bryancshepherd.com/Setting-up-Bluehost-DNS-for-a-GitHub-Jekyll-blog/){:target="_blank"} which made things easy. If you'd like to use a custom domain name (for example I use _thedatagent_) for your new page, you'll need to buy one from any popular [domain registrar](https://uk.godaddy.com/). Once you've done that you'll need to set up a CNAME file in your Git repository: create a file called CNAME and add (in text) the custom domain you've bought inside it(e.g. my CNAME file simple contains www.thedatagent.com). Once you've done that, log in to your account on your domain registrar page and find the DNS Zone editor. You'll need to add a new record to your DNS settings:
+
+1. Set the 'host' as `www`
+2. Enter CNAME as the type of DNS record to add
+3. Enter your GitHub user page (e.g. your_username.github.io) in the 'Points to' field
+4. Click add record
+
+You will need to wait some time for these changes to propagate (I had to wait about 3 or 4), but once you're done you should be up and running with your Jekyll-fuelled, RMarkdown-enabled, GitHub-hosted, custom-domain-name personal website.
+
+Happy blogging!
