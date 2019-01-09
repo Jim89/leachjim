@@ -4,6 +4,3 @@ public/
 # Ignore for R/project files
 .Rprofile
 .Rproj.user/
-
-# Ignore for HTML outputs from posts and pages
-./content/post/*.html
