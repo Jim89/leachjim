@@ -5,7 +5,8 @@ slug: earl-conference-2015
 categories:
   - R
   - Data Science
-tags: []  
+tags: []
+description: "I went to the EARL conference and had a great time, this post summarises some of my thoughts from the conference"
 ---
 
 The [EARL](http://www.earl-conference.com/index.html) conference is one of the largest conferences focussed on commercial applications of 'R'. A couple of weeks ago I was honoured to attend as a speaker as one of my last activities at work before starting my MSc. I want to jot a few thoughts down here on what I liked about my experience. Side note: I was only in attendance for the first day of talks, and I did not attend any of the workshops.

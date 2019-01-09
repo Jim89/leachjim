@@ -5,7 +5,8 @@ slug: getting-started-with-shiny
 categories:
   - R
   - tidyverse
-tags: []  
+tags: []
+description: "In this post I look at web scraping with R, and how I went about cleaning some messy data for a my first Shiny app"
 ---
 
 In my first post I introduced a simple [shiny](http://shiny.rstudio.com/) app that I've been putting together in my free time over the last few weeks. This is the first of the promised posts about my app - covering how I went about getting and cleaning the data for the app. The full code is on my [GitHub](https://github.com/Jim89/oyster) page so this post will just be a few highlights.

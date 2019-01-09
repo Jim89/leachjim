@@ -8,6 +8,10 @@ categories:
 tags: []
 ---
 
+_2019-01-09 - This blog no longer uses Jekyll, and is built with the blogdown package and Hugo. It seemed useful to leave this up as a reminder, though._
+
+***
+
 I recently decided to rebuild this blog. I've scrapped the WordPress site (which I used before) and now the blog is built using Jekyll and RMarkdown. It's hosted on GitHub [here](https://github.com/jim89/jim89.github.io).
 
 This will be a short post outlining how I did this, especially as making the switch seemed to me (at first) to be an overwhelming task. I'm assuming some (very) basic familiarity with both Git and Jekyll.

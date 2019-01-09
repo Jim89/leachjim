@@ -5,6 +5,7 @@ slug: getting-data-from-github
 categories:
   - R
 tags: []
+description: "In a video I saw from Plotcon 2016, Kent Russell mentioned his [GitHub stars](https://github.com/timelyportfolio?tab=stars), revealing that he has personally starred over 10,000 repositories. He joked that most of them are probably long-abandoned and mused that it might be interesting for someone to take a look at that. I thought it might be. So I have"
 ---
 
 Earlier this week I was watching [videos](https://www.youtube.com/user/plotlygraph/feed) from Plotly's [Plotcon](https://plotcon.plot.ly/) which took place in New York earlier in November 2016. Kent Russell, better known as [timelyportfolio](https://twitter.com/timelyportfolio), gave an interesting [talk](https://www.youtube.com/watch?v=1h8uQi6Du14) about the power combining different tools and languages to produce great work. Kent is well known in the `R` community for all the brilliant work he has done with `htmlwidgets` and bringing various web-based visualisation tools (think `D3.js` and other JavaScript libraries) in to `R`.

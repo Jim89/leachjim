@@ -4,7 +4,8 @@ date: '2015-08-10'
 slug: your-analysis-is-valuable
 categories:
   - Data Science
-tags: []  
+tags: []
+description: "Try not to get caught up in the hype of data science, and remember that even simple work done well is extremely valuable."
 ---
 
 I've recently been doing some preparation for my upcoming [MSc](http://wwwf.imperial.ac.uk/business-school/programmes/msc-business-analytics/) in analytics. One piece of prep has been running through the (so far excellent) [Machine Learning course](https://www.coursera.org/learn/machine-learning/home/welcome) from a leading light in the field: [Andrew Ng](http://www.andrewng.org/?page_id=413) (expect a review once I'm done). 
@@ -44,4 +45,4 @@ The lucid [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/
 
 So what my colleagues didn't realise at the time, was that they already were doing machine learning, they were doing it brilliantly, and it was of huge value to their clients. They were taking complex data, discovering the relationships in it, maybe predicting some future outcomes and using their results to solve problems and deliver value. Their solutions worked; they were fast and easy to understand and they could communicate the results effectively. 
 
-It's important to not only encourage my colleagues but also those who like them, are early in their careers in data, data science, or analytics and are getting swamped by the hype. Don't worry about trying to "get started" with machine learning: you're probably more than half way to doing it already, and your work still has an amazing capacity to add a huge amount of value to the problems you're working on.
+It's important to not only encourage my colleagues but also those who, like them, are early in their careers in data, data science, or analytics and are getting swamped by the hype. Don't worry about trying to "get started" with machine learning: you're probably more than half way to doing it already, and your work still has an amazing capacity to add a huge amount of value to the problems you're working on.

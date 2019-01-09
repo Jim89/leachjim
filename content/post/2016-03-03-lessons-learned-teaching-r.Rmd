@@ -6,6 +6,7 @@ categories:
   - R
   - Teaching
 tags: []
+description: "I've run several R workshops in the last few years and today I'd like to provide some notes and thoughts on things that I've learned whilst doing so"
 ---
 
 Whilst studying for an [MSc in Analytics](http://wwwf.imperial.ac.uk/business-school/programmes/msc-business-analytics/) at Imperial College London this year, I've been involved with the Data Science Society (ICDSS), part of Imperial's [Data Science Institute](https://www.imperial.ac.uk/data-science/).

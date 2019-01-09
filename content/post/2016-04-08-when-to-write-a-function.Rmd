@@ -6,6 +6,7 @@ categories:
   - R
   - Teaching
 tags: []
+description: "Making the transition from ad-hoc R scripts and analyses to functions and 'programming' can be tough, her are some thoughts on when to start making that transition"
 ---
 
 I was recently helping a friend who was trying to summarise the results of their analysis without resorting to repeated and manual calculations. We were working in `R`, but what's in this post is relevant to any language (as long as creating bespoke functions is possible).
