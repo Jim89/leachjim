@@ -29,7 +29,7 @@ theme = "hugo-steam-theme"
 
 	# Link custom assets relative to /static
 	favicon   = "images/portrait.jpg"
-	customCSS = []
+	customCSS = ["css/custom.css"]
 	customJS  = []
 
 	# To provide some metadata for search engines and the about section in the footer
