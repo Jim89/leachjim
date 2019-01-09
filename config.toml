@@ -1,6 +1,6 @@
 # Set basic options ------------------------------------------------------------
 baseurl = "/"
-title = "Steam - a minimal theme for Hugo" # The page title (e.g. in FF tabname)
+title = "leachjim - Jim Leach's blog" # The page title (e.g. in FF tabname)
 languageCode = "en-us"
 paginate = 5 # Number of posts per page
 preserveTaxonomyNames     = true
@@ -20,8 +20,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"] # Add ignore fi
 # Theme options ----------------------------------------------------------------
 theme = "hugo-steam-theme"
 [params]
-	title = "Steam" # The title on the page
-	subtitle = "a minimal theme for ~~Ghost~~ Hugo" # The subtitle on the page
+	title = "leachjim" # The title on the page
+	subtitle = "a personal website for Jim Leach" # The subtitle on the page
 	#copyright = "MIT."
 
 	# You can choose between green, orange, red and blue.
