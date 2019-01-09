@@ -7,11 +7,10 @@ categories:
   - Python
   - Data Science
 tags: []
+description: "Domino have built an impressive looking data science platform with some really cool features built-in as standard: collaboration, scalability, version control, and publishing. After some time playing around, I've been really impressed by what Domino can offer"
 ---
 
 In this post I want to talk about [Domino Data Labs](https://www.dominodatalab.com/). Domino have built an impressive looking data science platform with some really cool features built-in as standard: collaboration, scalability, version control, and publishing (for analysis reports, data-driven apps and predictive model APIs!). I wanted to test out this functionality and see if I could get things working for myself in a short time frame. Long story short: I could, and I've been really impressed by what Domino can offer. 
-
-***
 
 ## What I wanted to test out 
 
