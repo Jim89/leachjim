@@ -5,3 +5,5 @@ public/
 .Rprofile
 .Rproj.user/
 
+# Ignore for HTML outputs from posts and pages
+./content/post/*.html
