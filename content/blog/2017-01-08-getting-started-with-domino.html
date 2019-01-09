@@ -34,21 +34,17 @@ tags: []
 <p>Then, I read in the sample names that come as part of the <code>nltk</code> package. Usually this is possible directly with <code>nltk</code>, but I ran in to some trouble with the Domino platform not having the necessary data files from <code>nltk</code>, so I loaded the two files manually. I didn’t test out installing the <code>nltk</code> data directly to Domino (my focus was the API), but I can’t imagine it would be too much of a problem to sort.</p>
 <pre class="python"><code>males = open(&quot;./male.txt&quot;, &quot;r&quot;).read().split(&#39;\n&#39;)
 females = open(&quot;./female.txt&quot;, &quot;r&quot;).read().split(&#39;\n&#39;)
-
 # Remove 0-length names (import errors)
 males = filter(len, males)
 females = filter(len, females)</code></pre>
 <p>Then I created a single data set with all the names, labelled them as either male or female and shuffled that list up to mix the two genders in together.</p>
 <pre class="python"><code>labelled_names = ([(name, &#39;male&#39;) for name in males] + [(name, &#39;female&#39;) for name in females])
-
 import random
 random.shuffle(labelled_names) </code></pre>
 <p>The <code>gender_feature</code> function was then used to extract the last letter from each name, retaining the label for the classifier. After splitting the data into train and test sets the classifier (a simple <a href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier">Naive-Bayes</a> model) was trained with the training data.</p>
 <pre class="python"><code>featuresets = [(gender_feature(n), gender) for (n, gender) in labelled_names]  
-
 # Then split into test and train
 train, test = featuresets[500:], featuresets[:500]  
-
 # Create a dead-simple Naive-Bayes classifier from the train set
 import nltk
 classifier = nltk.NaiveBayesClassifier.train(train)</code></pre>
@@ -84,7 +80,6 @@ response = requests.post(&quot;https://trial.dominodatalab.com/v1/Jim89/quick-st
         &quot;parameters&quot;: [&quot;Jim&quot;]
     }
 )
-
 print(&#39;The answer is:&#39;)
 print(response.json()[&#39;result&#39;])</code></pre>
 <p>It seemed to be working as expected, so I tried accessing it from <code>R</code> as well (typically the language I’d turn to first):</p>

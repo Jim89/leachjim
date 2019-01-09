@@ -58,7 +58,6 @@ tags: []
     
     # get all the nodes that need to be assessed
     to_assess = graph_dict.keys() 
-
     # set all initial distances to infinity
     #  and no predecessor for any node
     for node in graph_dict:
@@ -68,21 +67,17 @@ tags: []
     # set the initial collection of 
     # permanently labelled nodes to be empty
     sp_set = []
-
     # set the distance from the start node to be 0
     distances[start] = 0
     
     # as long as there are still nodes to assess:
     while len(sp_set) &lt; len(to_assess):
-
         # chop out any nodes with a permanent label
         still_in = {node: distances[node]\
                     for node in [node for node in\
                     to_assess if node not in sp_set]}
-
         # find the closest node to the current node
         closest = min(still_in, key = distances.get)
-
         # and add it to the permanently labelled nodes
         sp_set.append(closest)
         
@@ -93,12 +88,10 @@ tags: []
             # if a shorter path to that node can be found
             if distances[node] &gt; distances[closest] +\
                        graph[closest][node][&#39;weight&#39;]:
-
                 # update the distance with 
                 # that shorter distance
                 distances[node] = distances[closest] +\
                        graph[closest][node][&#39;weight&#39;]
-
                 # set the predecessor for that node
                 predecessors[node] = closest
                 

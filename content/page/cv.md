@@ -1,9 +1,18 @@
 ---
-title: CV
+title: "CV"
 menu: main
+output:
+  word_document: default
+  pdf_document: default
+comments: no
 weight: 30
-comments: false
 ---
+
+_James (Jim) Leach_
+<br>
+_jimmy22theave@gmail.com_
+<br>
+_+44 (0) 7711 910 606_
 
 ## Professional profile
 
