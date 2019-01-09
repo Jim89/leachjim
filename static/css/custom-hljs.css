@@ -1,0 +1,95 @@
+/*
+Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
+*/
+
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #f7f7f7;
+  color: #657b83;
+  font-family: 'Fira Code' !important;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #93a1a1;
+  font-family: 'Fira Code';
+}
+
+/* Solarized Green */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-addition {
+  color: #859900;
+  font-family: 'Fira Code';
+}
+
+/* Solarized Cyan */
+.hljs-number,
+.hljs-string,
+.hljs-meta .hljs-meta-string,
+.hljs-literal,
+.hljs-doctag,
+.hljs-regexp {
+  color: #2aa198;
+  font-family: 'Fira Code';
+}
+
+/* Solarized Blue */
+.hljs-title,
+.hljs-section,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #268bd2;
+  font-family: 'Fira Code';
+}
+
+/* Solarized Yellow */
+.hljs-attribute,
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-class .hljs-title,
+.hljs-type {
+  color: #b58900;
+  font-family: 'Fira Code';
+}
+
+/* Solarized Orange */
+.hljs-symbol,
+.hljs-bullet,
+.hljs-subst,
+.hljs-meta,
+.hljs-meta .hljs-keyword,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-link {
+  color: #cb4b16;
+  font-family: 'Fira Code';
+}
+
+/* Solarized Red */
+.hljs-built_in,
+.hljs-deletion {
+  color: #dc322f;
+  font-family: 'Fira Code';
+}
+
+.hljs-formula {
+  background: #eee8d5;
+  font-family: 'Fira Code';
+}
+
+.hljs-emphasis {
+  font-style: italic;
+  font-family: 'Fira Code';
+}
+
+.hljs-strong {
+  font-weight: bold;
+  font-family: 'Fira Code';
+}
