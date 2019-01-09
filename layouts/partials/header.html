@@ -1,0 +1,9 @@
+<header id="site-head">
+  <div class="authorimage" style="background: url({{ "images/portrait.jpg" | absURL }})"></div>
+	{{ with .Site.Params.title }}
+	<h1 class="blog-title"><a href="{{ $.Site.BaseURL }}">{{ . | markdownify }}</a></h1>
+	{{ end }}
+	{{ with .Site.Params.subtitle }}
+	<h1 class="blog-subtitle">{{ . | markdownify }}</h1>
+	{{ end }}
+</header>

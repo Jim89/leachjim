@@ -28,7 +28,7 @@ theme = "hugo-steam-theme"
 	themecolor = "blue"
 
 	# Link custom assets relative to /static
-	#favicon   = "favicon.ico"
+	favicon   = "images/portrait.jpg"
 	customCSS = []
 	customJS  = []
 
