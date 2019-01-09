@@ -12,7 +12,7 @@ I originally studied chemistry, but life as a chemist wasn't for me. I got a job
 
 I now work as a commerical data scientist and manager: I apply scientific rigour to identify and quantify business opportunities using data, and lead others to do the same. My analytical mindset; technical aptitude; tenacity and drive, and communication and leadership skills enable me to use data to find and communicate answers to interesting questions, and to empower others to do so, too.
 
-If you're interested, this site was built using the [blogdown](https://github.com/rstudio/blogdown) package for R and [RMarkdown](http://rmarkdown.rstudio.com/). It's processed with [Hugo](https://gohugo.io/) and hosted with [Netlify](https://www.netlify.com/). The source for this site is saved on [GitHub](https://github.com/jim89/thedatagent) and the site is deployed continuously from there. You can also find some the other (non-work) projects I've worked on on GitHub. 
+If you're interested, this site was built using the [blogdown](https://github.com/rstudio/blogdown) package for R and [RMarkdown](http://rmarkdown.rstudio.com/). It's processed with [Hugo](https://gohugo.io/) and hosted with [Netlify](https://www.netlify.com/). The source for this site is saved on [GitHub](https://github.com/jim89/leachjim) and the site is deployed continuously from there. You can also find some the other projects I've worked on on GitHub. 
 
 ***
 
