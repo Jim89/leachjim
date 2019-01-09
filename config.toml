@@ -1,5 +1,5 @@
 # Set basic options ------------------------------------------------------------
-baseurl = "/"
+baseurl = "https://leachjim.com/"
 title = "leachjim - Jim Leach's blog" # The page title (e.g. in FF tabname)
 languageCode = "en-us"
 paginate = 5 # Number of posts per page
@@ -26,11 +26,11 @@ theme = "hugo-steam-theme"
 
 	# You can choose between green, orange, red and blue.
 	themecolor = "blue"
-
+	
 	# Link custom assets relative to /static
 	favicon   = "images/portrait.jpg"
-	customCSS = ["css/custom.css"]
-	customJS  = []
+	customCSS = ["css/custom-hljs.css"]
+	#customJS  = []
 
 	# To provide some metadata for search engines and the about section in the footer
 	# feel free to add a few information about you and your website.
