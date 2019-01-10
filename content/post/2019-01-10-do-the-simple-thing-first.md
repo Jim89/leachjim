@@ -7,7 +7,6 @@ categories:
   - Data Science
 tags: []
 description: "Before jumping to complex and sophisticated approaches, try something simple. The results might surprise you"
-draft: yes
 ---
    
 This will be a short post outlining my thoughts on trying different approaches
