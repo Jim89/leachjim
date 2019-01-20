@@ -1,0 +1,35 @@
+---
+title: Resources and principles for teaching
+author: Jim Leach
+date: '2019-01-20'
+slug: teaching-principles-and-resources
+categories:
+  - R
+  - Teaching
+  - tidyverse
+tags: []
+description: "Some basic principles related to teaching (programming) that might be helpful that I picked up at rstudio::conf"
+---
+
+I just got back from [rstudio::conf 2019](https://www.rstudio.com/conference/)
+in Austin, Texas. It was a great set of days with a _lot_ of thoughts and ideas
+for me to take away. As part of my time there I was fortunate enough to attend
+the "tidyverse: train the trainer certification" workshop (so I'm now official
+RStudio certified to teach the tidyverse, which is cool!). As part of the
+workshop [Greg Wilson](http://third-bit.com/) (founder of [Software
+Carpentry](https://software-carpentry.org/) and now a professional educator for
+RStudio) spoke a lot about some general principles for teaching, and especially
+for teaching programming.
+
+Luckily for me, my enthusiasm is still coursing through my veins and the ink of
+my notes is still drying. So I thought I'd capture some of the most important
+ideas I jotted down over the course of the workshop. It's not a well-formed list
+for now, but hopefully some of these ideas will serve as good jumping off points
+for the future.
+
+## Some principles
+
+* No dead air - try to constantly keep the students engaged, even just with
+chit-chat during down time.
+* Have a goal for a live class, distinct from what students could accomplish
+themselves with videos or self study.
