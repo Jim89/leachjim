@@ -82,7 +82,7 @@ this make sense?")
   * "I'm doing fine, you can move on"
   * "I'm struggling, can you slow down/repeat"
   * "I need a break"
-* Use sticky notes for participation - eveyone gets one, when they interact,
+* Use sticky notes for participation - everyone gets one, when they interact,
 remove it. Only interact with people who still have one left. Once they're all
 gone, everyone's goes back up.
 
@@ -140,3 +140,5 @@ directly to R, but most are quite general):
 * [Master the tidyverse](https://github.com/rstudio-education/master-the-tidyverse) materials
 * [RStudio Cloud](https://rstudio.cloud/) - cloud environments are great for
 overcoming tech. installation problems.
+* The train-the-trainer [workshop
+materials](https://github.com/rstudio-education/teaching-workshop-2019-01)
