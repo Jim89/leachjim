@@ -21,15 +21,122 @@ Carpentry](https://software-carpentry.org/) and now a professional educator for
 RStudio) spoke a lot about some general principles for teaching, and especially
 for teaching programming.
 
-Luckily for me, my enthusiasm is still coursing through my veins and the ink of
-my notes is still drying. So I thought I'd capture some of the most important
-ideas I jotted down over the course of the workshop. It's not a well-formed list
-for now, but hopefully some of these ideas will serve as good jumping off points
-for the future.
+Luckily for me, enthusiasm is still coursing through my veins and the ink of my
+notes is still drying. So I thought I'd capture some of the ideas I jotted down
+over the course of the workshop. It's not a particularly organised list for now,
+nor is it in any particular order. But hopefully some of these ideas will serve
+as good jumping off points for the future.
 
 ## Some principles
+
+> You are not your learners
 
 * No dead air - try to constantly keep the students engaged, even just with
 chit-chat during down time.
 * Have a goal for a live class, distinct from what students could accomplish
 themselves with videos or self study.
+* Focus on __active learning__ - keep the focus on the students, and keep them
+active.
+* Nothing is as good as 1-1 learning.
+* Set up time for learners to connect and work with one another.
+* The format of your teaching materials should enable collaboration in the same
+way (or as close to) as we enable collaboration with code/software.
+* Consider the audience, and match the materials and objectives of the lesson to
+them.
+* Don't test people _before_ the are in the class, it may intimidate the less
+skilled/experiences, and they are who _most_ need help. (But level-setting
+questions/quizzes once students are "captive" is probably ok).
+* The brain cannot form hard/long term memories after 45-90 minutes (and it's
+closer to 45), so make students get up and move around/be active to reset the
+body and the mind.
+
+> I don't know what I don't know
+
+* Consider the three stages of learning:
+  * Novice: no mental model to rely on
+  * Competent: have useful mental models, and can do most things successfully
+  * Expert: have elaborate mental models, and can handle anything
+* __Mental models__ for how something works are _key_  
+* Have an idea of what mental model you want your students to develop.
+* The main goal of training is to establish good mental models in your students.
+* Mental models provide meaning to context.
+
+> Apathy can be infectious
+
+* Reinforce (even trivial, e.g. tab-completion) commonalities across
+commands/methods/tools; this helps build confidence in new tools.
+* Consider the overhead (in time) of moving around a room/setting, and of group
+work.
+* Call from people around the room at random, to try and keep the whole room
+alert.
+* Get the audience active as quickly as you possibly can.
+* Consider common misconceptions, and deal with them.
+
+> Authenticity is crucial - be yourself, only more so.
+
+* Ideally, your audience should come from a common team/organisation, so they
+can help _each other_ to put their learning in to practice.
+* Never go more than a few minutes without checking in with students (e.g. "does
+this make sense?")
+* Use sticky notes, coloured to code for:
+  * "I'm doing fine, you can move on"
+  * "I'm struggling, can you slow down/repeat"
+  * "I need a break"
+* Use sticky notes for participation - eveyone gets one, when they interact,
+remove it. Only interact with people who still have one left. Once they're all
+gone, everyone's goes back up.
+
+> Start with a bang, especially after a break.
+
+* Cognitive load theory is important to consider - we need to reduce the
+extraneous (distracting) and intrinsic (i.e. due to inherent difficulty) load,
+and find ways to increase/enable germane load in students (the effort/energy
+that is going in to encoding the material as knowledge/skill)
+* Break down tasks in to chunks to reduce the cognitive load.
+* Reduce the intrinsic load by communicating the _relationships_ between things.
+
+> Very few things are as terrifying for a novice as a blank screen/page.
+  
+* Use faded examples during exercises.
+* Remember the limitations of time, and consider just how much you can cover.
+
+### Getting feedback
+
+* Getting feedback is crucial, especially mid-session. Make sure you're on track.
+* Ask learners what you can focus on (in terms of improvement), both negative
+and positive, and actively work on what they say.
+* If someone doesn't understand something, give them a _different_ explanation.
+* Don't waste student time - use formative assessments to check knowledge, and
+skip material that they understand/don't need to have covered.
+
+### Ideas on lesson design
+
+1. Write down 3-4 sentences that describe learner "personas", so you can tailor
+material appropriately.
+1. Draw out concept maps to help you plan what to cover, the big ideas, and how
+they're linked.
+1. Write the final test/evaluation, the thing that assesses if the learning "worked".
+1. Create formative assessments (i.e. for in the session).
+1. Write the materials
+1. _Save_ the design somewhere, so others can use it.
+
+> The best way to motivate students is to get them doing what they want to do,
+immediately.
+
+## Some resources
+
+Some books/papers/websites that were mentioned in the course (some relate
+directly to R, but most are quite general):
+
+* [How learning works - 7 principles for teaching](https://www.amazon.com/How-Learning-Works-Research-Based-Principles/dp/0470484101)
+* [Blooms Taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/)
+* Building a Better Teacher, [article](https://www.nytimes.com/2010/03/07/magazine/07Teachers-t.html) and [book](https://www.amazon.com/Building-Better-Teacher-Teaching-Everyone-ebook/dp/B00FPT5MSQ)
+* [Teach like a champion](http://teachlikeachampion.com/books/teach-like-champion-2-0)
+* [Small teaching](https://www.amazon.com/Small-Teaching-Everyday-Lessons-Learning/dp/1118944496/ref=sr_1_1?ie=UTF8&qid=1548026428&sr=8-1&keywords=small+teaching)
+* [The discussion book](https://www.wiley.com/en-us/The+Discussion+Book%3A+50+Great+Ways+to+Get+People+Talking-p-9781119049715)
+* [Understanding how we learn](https://www.amazon.com/Understanding-How-We-Learn-Visual-ebook/dp/B07GR9YK53)
+* [Sense of Style](https://www.amazon.com/Sense-Style-Thinking-Persons-Writing/dp/0143127799)
+* [teachtogether.tech](http://teachtogether.tech/en/)
+* [Master the tidyverse](https://github.com/rstudio-education/master-the-tidyverse) materials
+* [RStudio Cloud](https://rstudio.cloud/) - cloud environments are great for
+overcoming tech. installation problems.
